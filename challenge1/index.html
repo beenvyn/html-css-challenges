@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master of Form</title>
+  </head>
+  <header>
+    <h1>Create An Account</h1>
+  </header>
+  <body>
+    <form>
+      <label for="first-name">First name</label>
+      <input type="text" id="first-name" placeholder="First Name" required />
+
+      <br /><label for="last-name">Last name</label>
+      <input type="text" id="last-name" placeholder="Last Name" required />
+
+      <br /><label for="email">Email</label>
+      <input type="email" id="email" placeholder="Email" required />
+
+      <br /><label for="username">Username</label>
+      <input type="text" id="username" placeholder="Username" required />
+
+      <br /><label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="Password"
+        minlength="10"
+        required
+      />
+
+      <br /><label for="birth-date">Birth date</label>
+      <input type="date" id="birth-date" required />
+
+      <br />
+      How happy are you?
+      <input type="range" list="markers" required />
+      <datalist id="markers">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+
+      <br />What is your fav.color?
+      <input type="color" required />
+      <br /><input type="submit" value="Create Account" required />
+    </form>
+  </body>
+</html>

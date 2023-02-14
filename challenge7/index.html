@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="screen1 screen">
+      <main>
+        <header>
+          <i class="fas fa-arrow-left"></i>
+          <i class="fas fa-search"></i>
+        </header>
+
+        <div class="artist">
+          <img src="lauv.jpg" class="artist-circle" />
+          <h1>Lauv, Ari Staprans Leff</h1>
+          <h2>Pop, Electronic music</h2>
+        </div>
+
+        <div class="nav-btns">
+          <div class="nav-btn">Shuffle</div>
+          <div class="nav-btn">
+            <i class="fas fa-heart"></i><span id="likes">212 971</span>
+          </div>
+        </div>
+
+        <ul class="playlist">
+          <li class="playlist-song">
+            <div class="playlist-song__column">
+              <img src="song1.jpeg" />
+            </div>
+            <div class="playlist-song__column">
+              <div class="playlist-song__text">
+                <h3>Lauv, Ari Staprans Leff</h3>
+                <h4>Paris In The Rain</h4>
+              </div>
+            </div>
+            <div class="playlist-song__column">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </li>
+          <li class="playlist-song">
+            <div class="playlist-song__column">
+              <img src="song2.jpg" />
+            </div>
+            <div class="playlist-song__column">
+              <div class="playlist-song__text">
+                <h3>Lauv, Ari Staprans Leff</h3>
+                <h4>Lonely Eyes</h4>
+              </div>
+            </div>
+            <div class="playlist-song__column">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </li>
+          <li class="playlist-song">
+            <div class="playlist-song__column">
+              <img src="song3.png" />
+            </div>
+            <div class="playlist-song__column">
+              <div class="playlist-song__text">
+                <h3>Lauv, Ari Staprans Leff</h3>
+                <h4>Never Not</h4>
+              </div>
+            </div>
+            <div class="playlist-song__column">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </li>
+          <li class="playlist-song">
+            <div class="playlist-song__column">
+              <img src="song4.png" />
+            </div>
+            <div class="playlist-song__column">
+              <div class="playlist-song__text">
+                <h3>Lauv, Ari Staprans Leff</h3>
+                <h4>Love Somebody</h4>
+              </div>
+            </div>
+            <div class="playlist-song__column">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </li>
+        </ul>
+
+        <div class="playlist-nav-bar">
+          <div class="playlist-nav-bar__column">
+            <h5>Lauv, Ari Staprans Leff</h5>
+            <h6>Never Not</h6>
+          </div>
+          <div class="playlist-nav-bar__column">
+            <i class="fas fa-step-backward"></i>
+            <i class="fas fa-pause"></i>
+            <i class="fas fa-step-forward"></i>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="screen2 screen">
+      <main>
+        <header>
+          <i class="fas fa-arrow-left"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </header>
+        <div class="current-song__cover">
+          <img src="song3.png" />
+        </div>
+        <div class="current-song__text">
+          <h1>Never Not</h1>
+          <h2>Lauv, Ari Staprans Leff</h2>
+        </div>
+
+        <section class="current-song__timeline">
+          <div class="current-song__time">
+            <span>2:03</span><span>3:34</span>
+          </div>
+          <div class="current-song__time-bar">
+            <div class="current-song__timeline-played"></div>
+            <div class="current-song__timeline-circle"></div>
+            <div class="current-song__timeline-not-played"></div>
+          </div>
+        </section>
+
+        <section class="current-song__nav-bar">
+          <i class="fas fa-infinity gray"></i>
+          <i class="fas fa-step-backward move"></i>
+          <i class="fas fa-play-circle play"></i>
+          <i class="fas fa-step-forward move"></i>
+          <i class="fas fa-random gray"></i>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>

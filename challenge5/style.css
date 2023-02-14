@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: turquoise;
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrapper {
+  background-color: white;
+  width: 420px;
+  height: 100vh;
+  padding: 50px 30px 15px 30px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  position: relative;
+  font-weight: bold;
+  font-size: 27px;
+}
+header i {
+  position: absolute;
+  left: 0;
+}
+
+.current-song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.current-song__cover {
+  width: 140px;
+  height: 140px;
+  background-color: orange;
+  border-radius: 15px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
+}
+.current-song__cover i {
+  color: white;
+  font-size: 50px;
+}
+.current-song__data {
+  width: 50%;
+}
+.current-song__title {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.current-song__author {
+  font-size: 18px;
+  opacity: 0.7;
+}
+.current-song__column2 h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.current-song__column2 span {
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav-bar {
+  margin: 50px 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar__play {
+  width: 170px;
+  height: 100%;
+  border: solid black;
+  border-radius: 20px;
+  border-width: 3px 3px 8px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  font-weight: 600;
+}
+.nav-bar__play i {
+  margin-right: 10px;
+}
+.nav-bar__button {
+  height: 80px;
+  width: 80px;
+  border: solid black;
+  border-radius: 50%;
+  border-width: 3px 3px 8px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar__button i {
+  font-size: 35px;
+}
+
+.song-color div {
+  height: 70px;
+  width: 70px;
+  background-color: tomato;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+.song-list {
+  display: flex;
+  margin: 50px 0;
+}
+.song-text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: 600;
+}
+.song-text__title {
+  font-size: 30px;
+  line-height: 10px;
+}
+.song-text__singer {
+  font-size: 18px;
+  opacity: 0.6;
+}
+.song-list:nth-child(2) div {
+  background-color: pink;
+}
+.song-list:nth-child(3) div {
+  background-color: navy;
+}
+.song-list:nth-child(4) div {
+  background-color: teal;
+}

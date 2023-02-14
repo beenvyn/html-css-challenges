@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+body {
+  background-color: whitesmoke;
+  height: 100vh;
+  display: flex; /*h1 과 section을 배치하려는 용도*/
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+}
+h1 {
+  margin-bottom: 55px;
+}
+section {
+  width: 50%;
+  height: 100%;
+  display: flex; /*네개의 컬러 박스를 배치하려는 용도*/
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.color {
+  position: relative;
+}
+.color__bg {
+  height: 300px;
+  width: 150px;
+  border: 5px solid white;
+  margin-bottom: 15px;
+}
+.color-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /*색 이름이랑 색 코드를 배치하려는 용도*/
+
+  height: 33%;
+  background-color: white;
+
+  width: 100%;
+  position: absolute;
+  top: 20px;
+}
+.color-info span {
+  margin: auto 10px;
+}
+
+.color:first-child .color__bg {
+  background-color: tomato;
+}
+.color:nth-child(2) .color__bg {
+  background-color: teal;
+}
+.color:nth-child(3) .color__bg {
+  background-color: burlywood;
+}
+.color:last-child .color__bg {
+  background-color: thistle;
+}
